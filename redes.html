@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Materias - TESCHA</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="fonts.css">
+	<script src="js/main.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function(){
+			$('.flexslider').flexslider({
+				touch: true,
+				pauseOnAction: false,
+				pauseOnHover: false
+			});
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<div id="marca">
+				<h1><span class ="resaltado">Materias - </span>Claudia Guzmán Barrera</h1>
+			</div>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+		</div>
+ 		<nav>
+			<ul>
+				<li ><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-books"></span>Materias<span class="caret icon-plus"></span></a>
+					<ul class="children">
+						<li class="actual"><a href="redes.html">Redes de Comp<span class="icon-rocket"></span></a></li>
+						<li><a href="conmutacion.html">Conmut y Enrut de Red<span class="icon-rocket"></span></a></li>
+						<li><a href="admonredes.html">Admon Redes<span class="icon-rocket"></span></a></li>
+						<li><a href="telecom.html">Fund Telecom<span class="icon-rocket"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="doctos.html"><span class="icon-file-text"></span>Documentos</a></li>
+				<li><a href="videos.html"><span class="icon-play"></span>Videos</a></li>
+				<li><a href="contacto.html"><span class="icon-mail2"></span>Contacto</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+
+<!-- EN ESTA SECCION QUIERO PONER EL SLIDER-->
+	<section id="cabecera">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="images/redes.jpg" alt="">
+					<section class="flex-caption">
+						<p>Redes de Computadoras</p>
+					</section>
+				</li>
+				<li>
+					<img src="images/telecom.jpg" alt="">
+					<section class="flex-caption">
+						<p>Telecomunicaciones</p>
+					</section>
+				</li>
+				<li>
+					<img src="images/datacenter.jpg" alt="">
+					<section class="flex-caption">
+						<p>Administración de Redes</p>
+					</section>
+				</li>
+			</ul>
+		</div>
+	</section>
+	
+<!-- ESTA SECCION ES DONDE DEBO PONER EL CONTENIDO DE LA PAGINA-->
+	<section id="cajas">
+		<div class="contenedor2">
+			<p><h1>En esta sección encontraras información referente a la materia de Redes de Computadoras</h1></p>
+		</div>
+	</section>
+	<div id="elemento">
+		
+	</div>
+
+<!-- AQUI VA EL PIE DE PAGINA-->
+	<footer>
+		<p>Tecnológico de Estudios Superiores de Chalco</p>
+	</footer>	
+</body>
+</html>
